@@ -1,0 +1,26 @@
+.faq-container {
+    width: 100%;
+    height: 100%;
+}
+
+.faq-content h1{
+    text-align: center;
+    font-size: 3rem;
+    padding: 1rem;
+    padding-left: 0;
+}
+
+@media  screen and (max-width: 768px){
+    .faq-content h1{
+        font-size: 2rem;
+    }
+}
+
+@media  screen and (max-width: 400px){
+
+    
+
+    .faq-content h1{
+        font-size: 1rem;
+    }
+}
