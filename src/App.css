@@ -33,5 +33,28 @@ body::-webkit-scrollbar-track{
 }
 
 
+.Questions-header h1{
+  text-align: center;
+  font-size: 3rem;
+  padding: 1rem;
+  padding-left: 0;
+}
+
+
+@media screen and (max-width:768px){
+  
+  .Questions-header h1{
+    font-size: 2rem;
+  }
+}
+
+
+@media screen and (max-width:400px){
+  
+  .Questions-header h1{
+    font-size: 1rem;
+  }
+}
+
 
 

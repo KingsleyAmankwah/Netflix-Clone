@@ -1,18 +1,17 @@
 import React from 'react';
-import Header from './Components/Header'
-import Cards from './Components/Cards'
-import Footer from './Components/Footer'
-import Faq  from './Components/Faq';
+//import Home from './Components/Home'
+import Private from './Components/Private'
+
 import './App.css';
 
 function App() {
-  return ( 
-    <div className = "App" >
 
-      <Header/>
-      <Cards/>
-      <Faq/>
-      <Footer/>
+  
+  return ( 
+    <div className ="App">
+        
+       <Private/>
+    
     </div>
   );
 }
