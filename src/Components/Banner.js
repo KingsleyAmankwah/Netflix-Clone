@@ -29,7 +29,7 @@ function Banner() {
        
     }, [])
 
-    console.log(movie);
+   // console.log(movie);
 
 const [show, setshow] = useState(false);
 /* A function to be triggered only when the user scrolls */
@@ -56,6 +56,7 @@ useEffect(() => {
 }, [])
 
     return (
+        // The beginning point for the reuest to the url of the image ""https://image.tmdb.org/t/p/original/""
         <div className="Banner-container"
         style={{
             backgroundImage: `url("https://image.tmdb.org/t/p/original/${movie?.backdrop_path}")`,
@@ -85,7 +86,7 @@ useEffect(() => {
                  </div>
 
                 <div className="Banner_description">
-                    <p>{ truncate(    movie?.overview , 150)}   </p>
+                    <p>{ truncate(    movie?.overview , 180)}   </p>
                    
                  
                  </div>
