@@ -65,7 +65,9 @@ function SignUpScreen() {
               </span>
             </h5>
 
-            <button onClick={googleSignIn}>Continue with Google</button>
+            <button onClick={googleSignIn} class="google">
+              Continue with Google
+            </button>
           </form>
         </div>
       </div>

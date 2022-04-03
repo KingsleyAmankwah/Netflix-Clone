@@ -73,11 +73,12 @@ function Banner() {
         </div>
 
         <div className="avarta">
-          <img src={User.photo} alt="" srcset="" />
-          <button onClick={() => auth.signOut()} type="button">
-            {" "}
-            Logout
-          </button>
+          <img
+            onClick={() => auth.signOut()}
+            src={User.photo}
+            alt=""
+            srcset=""
+          />
         </div>
       </div>
 
